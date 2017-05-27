@@ -37,7 +37,7 @@ var firebase = require('/home/gcfabri/Workspace/binobot/firebase.js');
                                     console.log(result);
                                     watsonTextToSpeech.convertTextToAudio({
                                         "fileName": "converted",
-                                        "textMessage": conversationData.output.text[0] + "..." + result.join(',')
+                                        "textMessage": conversationData.output.text[0] + "..." + result.join('...')
                                     }).then(function (ttsData) {
                                         return res.status(200).send({
                                             "tts": ttsData,
@@ -60,12 +60,12 @@ var firebase = require('/home/gcfabri/Workspace/binobot/firebase.js');
                                         });
                                     });
                                 });
-                            } else if (conversationData.context.proximas == true && conversationData.context.proximas != undefined) {
+                            } else if (conversationData.context.status == true && conversationData.context.status != undefined) {
                                 firebase.getOficinasProximasPorLocalizacao([-23.6514766, -46.66594859999998], 15, function (result) {
                                     console.log(result);
                                     watsonTextToSpeech.convertTextToAudio({
                                         "fileName": "converted",
-                                        "textMessage": conversationData.output.text[0] + "..." + "Estas sao as oficinas mais proximas..." + result[0].nome + "..." + "e telefone" + "..." + result[0].telefone
+                                        "textMessage": conversationData.output.text[0] + "..." + result.join('...') + "...aproveite...lembrando que nessas oficinas você recebe um desconto de 50% no valor do serviço, deseja recalcular a rota?"
                                     }).then(function (ttsData) {
                                         return res.status(200).send({
                                             "tts": ttsData,
@@ -73,6 +73,76 @@ var firebase = require('/home/gcfabri/Workspace/binobot/firebase.js');
                                             "conversation": conversationData
                                         });
                                     });
+                                });
+                            } else if (conversationData.context.sim == true && conversationData.context.sim != undefined) {
+                                watsonTextToSpeech.convertTextToAudio({
+                                    "fileName": "converted",
+                                    "textMessage": conversationData.output.text[0]
+                                }).then(function (ttsData) {
+                                    return res.status(200).send({
+                                        "tts": ttsData,
+                                        "stt": data.results,
+                                        "conversation": conversationData
+                                    });
+                                }, function (err) {
+                                    console.log(err);
+                                    return res.status(500).send(err);
+                                });
+                            } else if (conversationData.context.oibina == true && conversationData.context.oibina != undefined) {
+                                watsonTextToSpeech.convertTextToAudio({
+                                    "fileName": "converted",
+                                    "textMessage": conversationData.output.text[0]
+                                }).then(function (ttsData) {
+                                    return res.status(200).send({
+                                        "tts": ttsData,
+                                        "stt": data.results,
+                                        "conversation": conversationData
+                                    });
+                                }, function (err) {
+                                    console.log(err);
+                                    return res.status(500).send(err);
+                                });
+                            } else if (conversationData.context.pecas == true && conversationData.context.pecas != undefined) {
+                                watsonTextToSpeech.convertTextToAudio({
+                                    "fileName": "converted",
+                                    "textMessage": conversationData.output.text[0]
+                                }).then(function (ttsData) {
+                                    return res.status(200).send({
+                                        "tts": ttsData,
+                                        "stt": data.results,
+                                        "conversation": conversationData
+                                    });
+                                }, function (err) {
+                                    console.log(err);
+                                    return res.status(500).send(err);
+                                });
+                            } else if (conversationData.context.encomendar == true && conversationData.context.encomendar != undefined) {
+                                watsonTextToSpeech.convertTextToAudio({
+                                    "fileName": "converted",
+                                    "textMessage": conversationData.output.text[0]
+                                }).then(function (ttsData) {
+                                    return res.status(200).send({
+                                        "tts": ttsData,
+                                        "stt": data.results,
+                                        "conversation": conversationData
+                                    });
+                                }, function (err) {
+                                    console.log(err);
+                                    return res.status(500).send(err);
+                                });
+                            } else if (conversationData.context.piada == true && conversationData.context.piada != undefined) {
+                                watsonTextToSpeech.convertTextToAudio({
+                                    "fileName": "converted",
+                                    "textMessage": conversationData.output.text[0]
+                                }).then(function (ttsData) {
+                                    return res.status(200).send({
+                                        "tts": ttsData,
+                                        "stt": data.results,
+                                        "conversation": conversationData
+                                    });
+                                }, function (err) {
+                                    console.log(err);
+                                    return res.status(500).send(err);
                                 });
                             } else if (res.status(500)) {
                                 watsonTextToSpeech.convertTextToAudio({

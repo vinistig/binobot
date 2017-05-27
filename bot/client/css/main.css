@@ -61,6 +61,7 @@ header h3 {
 
 #start.stopped {
     background-image: url("../assets/icons/mic_white.svg");
+    background-color: red;
 }
 
 body > div {
