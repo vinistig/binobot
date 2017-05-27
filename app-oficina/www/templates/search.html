@@ -1,0 +1,22 @@
+<ion-view view-title="Buscar Peças">
+  <ion-content>
+	<div style="height:250px">
+        <label class="item item-input">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="text" placeholder="Buscar Peças" ng-model="searchText">
+        </label>
+        <scroll direction="y">          
+			<ul class="list">      
+				<li ng-repeat="data in sampleData | filter:searchText">{{data.key}}</li>          
+			</ul> 
+		</scroll>  
+	</div>
+	<div class="centraliza">
+		<a href="#/app/shop"> 
+			<div class="audio-search">
+				<i class="ion ion-mic-a "></i>
+			</div>
+		</a>
+	</div>
+  </ion-content>
+</ion-view>

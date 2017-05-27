@@ -1,0 +1,66 @@
+<div ng-controller="homeCtrl">
+
+	<div class="row carousel-holder">
+
+			<div class="col-md-12">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators">
+									<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							</ol>
+							<div class="carousel-inner">
+									<div class="item active">
+											<img class="slide-image" src="http://www.localizador.boschcarservice.pt/img/tapa-bcs.jpg" alt="">
+									</div>
+									<div class="item">
+											<img class="slide-image" src="http://www.mercedes-benz.com.eg/content/media_library/egypt/mpc_egypt/retail/gna/services/services_715x285.object-Single-MEDIA.tmp/services_715x285.jpg" alt="">
+									</div>
+							</div>
+							<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+					</div>
+			</div>
+
+	</div>
+
+	<div class="row">
+
+			<div class="col-sm-4 col-lg-4 col-md-4" ng-repeat="produto in produtos">
+					<div class="thumbnail">
+						<div class="produto-img">
+							<img src="{{produto.imagem}}" alt="">
+						</div>
+							<div class="caption">
+									<h4 class="pull-right">$ {{produto.preco | currency}}</h4>
+									<h4><a href="#">{{produto.nome}}</a>
+									</h4>
+									<p>{{produto.descricao}} <a target="_blank" href="#">show more</a>.</p>
+							</div>
+							<div class="ratings">
+									<p class="pull-right">15 reviews</p>
+									<p>
+											<span class="glyphicon glyphicon-star"></span>
+											<span class="glyphicon glyphicon-star"></span>
+											<span class="glyphicon glyphicon-star"></span>
+											<span class="glyphicon glyphicon-star"></span>
+											<span class="glyphicon glyphicon-star"></span>
+									</p>
+							</div>
+					</div>
+			</div>
+
+			<div class="clearfix"></div>
+
+			<div class="col-sm-4 col-lg-4 col-md-4">
+					<h4><a href="#">Do you like this?</a>
+					</h4>
+					<p>This samples is part of our pitch at bizhack.com.br <a target="_blank" href="#">see here</a> thanks for the support.</p>
+					<a class="btn btn-primary" target="_blank" href="#">Visit weme</a>
+			</div>
+
+	</div>
+</div>

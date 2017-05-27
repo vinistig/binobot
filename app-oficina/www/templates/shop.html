@@ -1,0 +1,50 @@
+<ion-view view-title="Comprar Peças">
+<ion-content >
+<h1 class="titulo"> Óleo Vegetal 5000KM</h1>
+<ks-swiper-container initial-slide="3" speed="2000" loop="true" show-nav-buttons="false" slides-per-view="3" space-between="5" pagination-clickable="false" override-parameters="{effect: 'coverflow',coverflow: {rotate: 50,stretch: 0,depth: 100,modifier: 1,slideShadows : false}}"  on-ready="onReadySwiper(swiper)">
+	<ks-swiper-slide class="swiper-slide" ng-repeat="loja in vendedores">
+		<div class="img-carousel">
+			<img ng-src="{{loja.src}}" width="100%">
+		</div>
+		<div class="nome-loja">
+		{{loja.nome}}
+		</div>
+		<div class="distancia-loja">
+		{{loja.distancia}}
+		</div>
+	</ks-swiper-slide>			
+</ks-swiper-container>
+
+<h2 class="titulo">Peças Relacionadas</h2>
+<h3 class="titulo"> Óleo Vegetal 15000KM</h3>
+<ks-swiper-container initial-slide="3" speed="2000" loop="true" show-nav-buttons="false" slides-per-view="3" space-between="5" pagination-clickable="false" override-parameters="{effect: 'coverflow',coverflow: {rotate: 50,stretch: 0,depth: 100,modifier: 1,slideShadows : false}}"  on-ready="onReadySwiper(swiper)">
+	<ks-swiper-slide class="swiper-slide" ng-repeat="loja in vendedores">
+		<div class="img-carousel">
+			<img ng-src="{{loja.src}}" width="100%">
+		</div>
+		<div class="nome-loja">
+		{{loja.nome}}
+		</div>
+		<div class="distancia-loja">
+		{{loja.distancia}}
+		</div>
+	</ks-swiper-slide>			
+</ks-swiper-container>
+		
+<h3 class="titulo"> Óleo Mineral 15000KM</h3>
+<ks-swiper-container initial-slide="3" speed="2000" loop="true" show-nav-buttons="false" slides-per-view="3" space-between="5" pagination-clickable="false" override-parameters="{effect: 'coverflow',coverflow: {rotate: 50,stretch: 0,depth: 100,modifier: 1,slideShadows : false}}"  on-ready="onReadySwiper(swiper)">
+	<ks-swiper-slide class="swiper-slide" ng-repeat="loja in vendedores">
+		<div class="img-carousel">
+			<img ng-src="{{loja.src}}" width="100%">
+		</div>
+		<div class="nome-loja">
+		{{loja.nome}}
+		</div>
+		<div class="distancia-loja">
+		{{loja.distancia}}
+		</div>
+	</ks-swiper-slide>			
+</ks-swiper-container>
+	
+</ion-content>
+</ion-view>
