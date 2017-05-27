@@ -1,0 +1,1248 @@
+{
+  "data": {
+    "item": [{
+      "Latitude": "-23.638836",
+      "Longitude": "-46.670160099999976",
+      "bairro": "VILA ALEXANDRIA",
+      "cep": "04635-000",
+      "cidade": "SÃO PAULO",
+      "email": "aldiam@aldiam.com.br",
+      "endereco": "AV SANTA CATARINA, 190",
+      "guincho": "0",
+      "id": "260761",
+      "nome": "ALDIAM",
+      "telefone": "(11) 5543 5012",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.5550279",
+      "Longitude": "-46.65676029999997",
+      "bairro": "CONSOLACAO",
+      "cep": "01305-100",
+      "cidade": "SÃO PAULO",
+      "email": "sac@alphacarservice.com.br",
+      "endereco": "R AUGUSTA, 1245",
+      "guincho": "1",
+      "id": "260745",
+      "nome": "ALPHA CAR",
+      "servicos": "4128^4130^4133^4137^4141^4147^4149^4150^4151^4152^4156",
+      "telefone": "(11) 3255 2519",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.498132200000008",
+      "Longitude": "-46.58779519999996",
+      "bairro": "V. MARIA ALTO",
+      "cep": "02135-000",
+      "cidade": "SÃO PAULO",
+      "email": "ap_boschcar@hotmail.com",
+      "endereco": "AV CONCEIÇÃO, 2934 ,",
+      "guincho": "0",
+      "id": "261183",
+      "nome": "AP AUTO CENTER",
+      "servicos": "4128^4129^4132^4134^4135^4136^4137^4141^4147^4148^4149^4150^4151^4152^4154^4155^4156^4158",
+      "site": "www.injetronicautomotivo.com.br",
+      "telefone": "(11) 2951 1349",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.5013766",
+      "Longitude": "-46.73906599999998",
+      "bairro": "SAO DOMINGOS",
+      "cep": "05125-000",
+      "cidade": "SÃO PAULO",
+      "email": "centerkoga@uol.com.br",
+      "endereco": "R BRIGADEIRO HENRIQUE FONTENELLE, 715",
+      "guincho": "1",
+      "id": "260430",
+      "nome": "AUTO CENTER KOGA",
+      "servicos": "4129^4130^4133^4135^4137^4141^4147^4149^4151^4152^4154^4156",
+      "telefone": "(11) 3832 2807",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.5062489",
+      "Longitude": "-46.62429410000004",
+      "bairro": "SANTANA",
+      "cep": "02034-010",
+      "cidade": "SÃO PAULO",
+      "email": "igarapava@uol.com.br",
+      "endereco": "R ALFREDO GUEDES, 205",
+      "guincho": "0",
+      "id": "260520",
+      "nome": "AUTO ELÉTRICA E PEÇAS IGARAPAVA",
+      "servicos": "4128^4133^4137^4147^4149^4154^4156",
+      "telefone": "(11) 2979 7462",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.4948354",
+      "Longitude": "-46.63095320000002",
+      "bairro": "SANTANA",
+      "cep": "02018-012",
+      "cidade": "SÃO PAULO",
+      "email": "decastro.prog@gmail.com",
+      "endereco": "CONSELHEIRO MOREIRA DE BARROS ,625",
+      "guincho": "0",
+      "id": "261410",
+      "nome": "AUTO MECANICA DE CASTRO",
+      "telefone": "(11) 2950 0990",
+      "uf": "SP"
+    }, {
+      "Latitude": "-22.5523046",
+      "Longitude": "-47.918549600000006",
+      "bairro": "CENTRO",
+      "cep": "13520-000",
+      "cidade": "SÃO PAULO",
+      "email": "automecar@yahoo.com.br",
+      "endereco": "R BRIGIDA ROSSI, 1206",
+      "guincho": "1",
+      "id": "260746",
+      "nome": "AUTO MECAR",
+      "servicos": "4129^4130^4133^4141^4147^4152^4153",
+      "telefone": "(19) 3481 2276",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.5552955",
+      "Longitude": "-46.683744299999944",
+      "bairro": "JARDIM AMERICA",
+      "cep": "05413-011",
+      "cidade": "SÃO PAULO",
+      "email": "autovila@yahoo.com.br",
+      "endereco": "R HENRIQUE SHAUMANN, 1152",
+      "guincho": "0",
+      "id": "260774",
+      "nome": "AUTO VILA",
+      "servicos": "4128^4129^4133^4135^4137^4147^4149^4150^4154^4156",
+      "telefone": "(11) 3088 3338",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.6564604",
+      "Longitude": "-46.69494640000005",
+      "bairro": "SANTO AMARO",
+      "cep": "04662-002",
+      "cidade": "SÃO PAULO",
+      "email": "autobancar@autobancar.com.br",
+      "endereco": "AV WASHINGTON LUIZ, 1107",
+      "guincho": "0",
+      "id": "260586",
+      "nome": "AUTOBAN",
+      "servicos": "4128 ^ 4129 ^ 4133 ^ 4135 ^ 4137 ^ 4147 ^ 4148 ^ 4149 ^ 4150 ^ 4151 ^ 4152 ^ 4154 ^ 4156 ^ 4158 ",
+      "site": "www.autobancar.com.br",
+      "telefone": "(11) 5522 3618",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.6780233",
+      "Longitude": "-46.69800789999999",
+      "bairro": "VILA ALMEIDA",
+      "cep": "04795-000",
+      "cidade": "SÃO PAULO",
+      "email": "jsmauro@autohaz.com.br",
+      "endereco": "AV DAS NAÇÕES UNIDAS, 22540",
+      "guincho": "0",
+      "id": "260423",
+      "nome": "AUTOHAZ BOSCH CAR SERVICE",
+      "site": "www.autohaz.com.br",
+      "telefone": "(11) 5523 4274",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.5188305",
+      "Longitude": "-46.706146800000056",
+      "bairro": "LAPA",
+      "cep": "05074-070",
+      "cidade": "SÃO PAULO",
+      "email": "autolapa@autolapa.com.br",
+      "endereco": "R JOÃO PEREIRA, 172/178",
+      "guincho": "0",
+      "id": "260469",
+      "nome": "AUTOLAPA",
+      "servicos": "4128 ^ 4133 ^ 4135 ^ 4137 ^ 4147 ^ 4148 ^ 4149 ^ 4150 ^ 4151 ^ 4152 ^ 4154 ^ 4156 ",
+      "site": "www.autolapa.com.br",
+      "telefone": "(11) 3837 9422",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.530058399999994",
+      "Longitude": "-46.66134950000003",
+      "bairro": "PACAEMBU",
+      "cep": "01154-030",
+      "cidade": "SÃO PAULO",
+      "email": "balancar.bosch@hotmail.com",
+      "endereco": "R MARGARIDA , 269",
+      "guincho": "0",
+      "id": "261060",
+      "nome": "BALANCAR",
+      "telefone": "(11) 3826 0080",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.4886685",
+      "Longitude": "-46.68786950000003",
+      "bairro": "FREGUESIA DO O",
+      "cep": "02738-090",
+      "cidade": "SÃO PAULO",
+      "email": "m.bentoautomotivo@ig.com.br",
+      "endereco": "R SANTA ROSA DO VITERBO, 395",
+      "guincho": "1",
+      "id": "261203",
+      "nome": "BENTO SERVIÇOS",
+      "servicos": "4128 ^ 4129 ^ 4130 ^ 4132 ^ 4133 ^ 4134 ^ 4135 ^ 4136 ^ 4137 ^ 4141 ^ 4147 ^ 4149 ^ 4151 ^ 4152 ^ 4153 ^ 4154 ^ 4156 ",
+      "telefone": "(11) 3932 6060",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.60917445",
+      "Longitude": "-46.50550295000005",
+      "bairro": "JD PLANALTO",
+      "cep": "03988-000",
+      "cidade": "SÃO PAULO",
+      "email": "best-car@outlook.com",
+      "endereco": "AV SAPOPEMBA ,10284",
+      "guincho": "1",
+      "id": "261253",
+      "nome": "BEST CAR SERVICOS AUTOMOTIVOS",
+      "servicos": "4128 ^ 4129 ^ 4130 ^ 4132 ^ 4133 ^ 4134 ^ 4135 ^ 4137 ^ 4147 ^ 4148 ^ 4149 ^ 4150 ^ 4151 ^ 4152 ^ 4153 ^ 4154 ^ 4156 ^ 4158 ",
+      "site": "www.terenceservauto.com.br",
+      "telefone": "(11) 2036 2694",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.6021838",
+      "Longitude": "-46.611194299999966",
+      "bairro": "IPIRANGA",
+      "cep": "04278-000",
+      "cidade": "SÃO PAULO",
+      "email": "gigios@gigiosboschservice.com.br",
+      "endereco": "AV DR GENTIL DE MOURA, 379",
+      "guincho": "0",
+      "id": "260793",
+      "nome": "BOSCH CAR SERVICE - GIGIO'S",
+      "servicos": "4128 ^ 4129 ^ 4133 ^ 4135 ^ 4137 ^ 4147 ^ 4149 ^ 4150 ^ 4151 ^ 4152 ^ 4154 ^ 4156 ",
+      "telefone": "(11) 5061 5062",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.5554142",
+      "Longitude": "-46.67760750000002",
+      "bairro": "PINHEIROS",
+      "cep": "05407-000",
+      "cidade": "SÃO PAULO",
+      "email": "kiko@canaaservicos.com.br",
+      "endereco": "R CARDEAL ARCOVERDE, 479",
+      "guincho": "0",
+      "id": "261044",
+      "nome": "CANAÃ SERVIÇOS AUTOMOTIVOS",
+      "telefone": "(11) 3891 2339",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.548535599999994",
+      "Longitude": "-46.62458409999999",
+      "bairro": "BRAS",
+      "cep": "03040-030",
+      "cidade": "SÃO PAULO",
+      "email": "acleite@centroautomotivoacleite.com.br",
+      "endereco": "R CAPITÃO FAUSTINO DE LIMA, 139",
+      "guincho": "1",
+      "id": "261139",
+      "nome": "CENTRO AUTOMOTIVO AAC LEITE LTDA",
+      "servicos": "4128 ^ 4129 ^ 4130 ^ 4132 ^ 4133 ^ 4134 ^ 4135 ^ 4136 ^ 4137 ^ 4139 ^ 4140 ^ 4147 ^ 4148 ^ 4149 ^ 4152 ^ 4154 ^ 4156 ",
+      "telefone": "(11) 3209 1322",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.5332481",
+      "Longitude": "-46.64705200000003",
+      "bairro": "CAMPOS ELISEOS",
+      "cep": "01216-000",
+      "cidade": "SÃO PAULO",
+      "email": "autohelio@autohelio.com.br",
+      "endereco": "AL NOTHMANN, 621",
+      "guincho": "1",
+      "id": "260546",
+      "nome": "CENTRO AUTOMOTIVO HÉLIO",
+      "servicos": "4128 ^ 4129 ^ 4130 ^ 4133 ^ 4135 ^ 4137 ^ 4141 ^ 4147 ^ 4149 ^ 4150 ^ 4151 ^ 4154 ^ 4156 ",
+      "telefone": "(11) 3221 1599",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.66964565",
+      "Longitude": "-46.53579835000005",
+      "bairro": "PARAISO",
+      "cep": "09190-210",
+      "cidade": "SÃO PAULO",
+      "email": "flavio.sandreschi@hotmail.com",
+      "endereco": "AV PEREIRA BARRETO ,290",
+      "guincho": "0",
+      "id": "261414",
+      "nome": "CENTRO AUTOMOTIVO PEREIRA BARRETO",
+      "telefone": "(11) 4990 8541",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.5002412",
+      "Longitude": "-46.67398490000005",
+      "bairro": "LIMAO",
+      "cep": "02721-100",
+      "cidade": "SÃO PAULO",
+      "email": "duran-car@superig.com.br",
+      "endereco": "AV DEP. EMILIIO CARLOS ,514",
+      "guincho": "0",
+      "id": "261457",
+      "nome": "DURAN CAR",
+      "telefone": "(11) 3935 6104",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.4793352",
+      "Longitude": "-46.650130099999956",
+      "bairro": "LAUZANE PAULISTA",
+      "cep": "02430-002",
+      "cidade": "SÃO PAULO",
+      "email": "engefuel@engefuel.com.br",
+      "endereco": "R CONSELHEIRO MOREIRA BARROS, 3428",
+      "guincho": "0",
+      "id": "260730",
+      "nome": "ENGE FUEL",
+      "servicos": "4129^4133^4135^4137^4147^4148^4149^4152^4154^4156",
+      "site": "www.engefuel.com.br",
+      "telefone": "(11) 2236 0994",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.6450572",
+      "Longitude": "-46.702364800000055",
+      "bairro": "SANTO AMARO",
+      "cep": "04739-001",
+      "cidade": "SÃO PAULO",
+      "email": "engecar.oficina@terra.com.br",
+      "endereco": "R SÃO JOSÉ, 67",
+      "guincho": "1",
+      "id": "260773",
+      "nome": "ENGECAR",
+      "servicos": "4130 ^ 4133 ^ 4135 ^ 4137 ^ 4139 ^ 4141 ^ 4147 ^ 4149 ^ 4151 ^ 4152 ^ 4154 ^ 4156 ",
+      "site": "www.engecar.com.br",
+      "telefone": "(11) 5524 8176",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.573813899999998",
+      "Longitude": "-46.57017970000004",
+      "bairro": "VILA PRUDENTE",
+      "cep": "03158-010",
+      "cidade": "SÃO PAULO",
+      "email": "foxcar@foxcar.com.br",
+      "endereco": "PÇ ADOLFO CAVALCANTE, 01",
+      "guincho": "1",
+      "id": "260524",
+      "nome": "FOXCAR",
+      "servicos": "4128 ^ 4129 ^ 4130 ^ 4133 ^ 4135 ^ 4137 ^ 4141 ^ 4147 ^ 4148 ^ 4149 ^ 4150 ^ 4151 ^ 4152 ^ 4154 ^ 4158 ",
+      "site": "www.foxcar.com.br",
+      "telefone": "(11) 2965 0632",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.488796500000007",
+      "Longitude": "-46.650285800000006",
+      "bairro": "IMIRIM",
+      "cep": "02413-000",
+      "cidade": "SÃO PAULO",
+      "email": "domingos@hibridoautocenter.com.br",
+      "endereco": "AV ENGENHEIRO CAETANO ALVARES ,3868",
+      "guincho": "0",
+      "id": "261643",
+      "nome": "HIBRIDO AUTO CENTER",
+      "telefone": "(11) 2236 1958",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.5922567",
+      "Longitude": "-46.55704854999999",
+      "bairro": "JARDIM INDEPENDÊNCIA",
+      "cep": "03223-120",
+      "cidade": "SÃO PAULO",
+      "email": "sac@grupoinjetronic.com.br",
+      "endereco": "RUA ARTIA, 338 E 332",
+      "guincho": "1",
+      "id": "261132",
+      "nome": "INJETRONIC",
+      "servicos": "4128 ^ 4129 ^ 4130 ^ 4132 ^ 4133 ^ 4134 ^ 4135 ^ 4136 ^ 4137 ^ 4139 ^ 4140 ^ 4141 ^ 4147 ^ 4149 ^ 4150 ^ 4151 ^ 4152 ^ 4154 ^ 4156 ",
+      "site": "www.injetronicautomotivo.com.br",
+      "telefone": "(11) 2046 3845",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.5035602",
+      "Longitude": "-46.66166999999996",
+      "bairro": "CASA VERDE",
+      "cep": "02522-000",
+      "cidade": "SÃO PAULO",
+      "email": "jaguarauto@uol.com.br",
+      "endereco": "AV CASA VERDE, 2164",
+      "guincho": "0",
+      "id": "260706",
+      "nome": "JAGUARAUTO",
+      "servicos": "4128 ^ 4133 ^ 4135 ^ 4137 ^ 4139 ^ 4147 ^ 4149 ^ 4150 ^ 4151 ^ 4152 ^ 4153 ^ 4154 ^ 4156 ",
+      "site": "www.jaguarauto.com.br",
+      "telefone": "(11) 3858 4788",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.5001389",
+      "Longitude": "-46.59234900000001",
+      "bairro": "VILA MARIA",
+      "cep": "02072-002",
+      "cidade": "SÃO PAULO",
+      "email": "pneusjaragua@superig.com.br",
+      "endereco": "AV CONCEIÇÃO, 2367",
+      "guincho": "1",
+      "id": "260695",
+      "nome": "JARAGUÁ BOSCH CAR SERVICE",
+      "servicos": "4128 ^ 4129 ^ 4130 ^ 4133 ^ 4135 ^ 4137 ^ 4139 ^ 4140 ^ 4141 ^ 4147 ^ 4148 ^ 4149 ^ 4150 ^ 4151 ^ 4152 ^ 4153 ^ 4154 ^ 4156 ^ 4158 ",
+      "telefone": "(11) 2901 5656",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.52271015",
+      "Longitude": "-46.52387180000005",
+      "bairro": "PENHA DE FRANÇA",
+      "cep": "03635-001",
+      "cidade": "SÃO PAULO",
+      "email": "johnnycar_zonaleste@hotmail.com",
+      "endereco": "AV. AMADOR BUENO DA VEIGA ,2283",
+      "guincho": "0",
+      "id": "261610",
+      "nome": "JOHNNY CAR",
+      "telefone": "!11) 3798 5090",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.4863636",
+      "Longitude": "-46.605471400000056",
+      "bairro": "PARADA INGLESA",
+      "cep": "02242-000",
+      "cidade": "SÃO PAULO",
+      "email": "maxpoweer@terra.com.br",
+      "endereco": "AV GAL ATALIBA LEONEL, 3509",
+      "guincho": "0",
+      "id": "260698",
+      "nome": "MAX POWER",
+      "servicos": "4128 ^ 4133 ^ 4135 ^ 4137 ^ 4147 ^ 4148 ^ 4149 ^ 4151 ^ 4152 ^ 4153 ^ 4154 ^ 4156 ",
+      "telefone": "(11) 3294 2936",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.503055",
+      "Longitude": "-46.576495799999975",
+      "bairro": "JARDIM JAPAO",
+      "cep": "02124-001",
+      "cidade": "SÃO PAULO",
+      "email": "mcd.autotecnico@terra.com.br",
+      "endereco": "AV DAS CEREJEIRAS, 1651",
+      "guincho": "0",
+      "id": "260675",
+      "nome": "MCD - AUTO TÉCNICO",
+      "servicos": "4129^4133^4137^4147^4149^4152^4154^4156",
+      "telefone": "(11) 2983 3715",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.5667509",
+      "Longitude": "-46.590595399999984",
+      "bairro": "MOOCA",
+      "cep": "03119-020",
+      "cidade": "SÃO PAULO",
+      "email": "mecanicadogato@mecanicadogato.com.br",
+      "endereco": "R BIXIRA, 233",
+      "guincho": "0",
+      "id": "260330",
+      "nome": "MECÂNICA DO GATO",
+      "servicos": "4128^4133^4137^4147^4149^4150^4154",
+      "site": "www.mecanicadogato.com.br",
+      "telefone": "(11) 2028 2811",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.51400345",
+      "Longitude": "-46.72004885000001",
+      "bairro": "VILA ANASTACIO",
+      "cep": "05092-000",
+      "cidade": "SÃO PAULO",
+      "email": "paulo-nobrega@uol.com.br",
+      "endereco": "R BARTOLOMEU PAES, 698",
+      "guincho": "0",
+      "id": "260599",
+      "nome": "MECÂNICA GARÇA",
+      "servicos": "4133^4137^4147^4149^4151^4154^4156",
+      "telefone": "(11) 3834 4250",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.546071700000006",
+      "Longitude": "-46.53873650000003",
+      "bairro": "VILA CARRAO",
+      "cep": "03443-000",
+      "cidade": "SÃO PAULO",
+      "email": "contato@mecanicagtbox.com.br",
+      "endereco": "R BAQUIA ,199",
+      "guincho": "0",
+      "id": "261526",
+      "nome": "MECÂNICA GT BOX",
+      "telefone": "(11) 2092 9005",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.599867",
+      "Longitude": "-46.530370999999946",
+      "bairro": "PQ SAO LUCAS",
+      "cep": "03267-110",
+      "cidade": "SÃO PAULO",
+      "email": "hermes-car@hotmail.com",
+      "endereco": "R NOVA TIMBOTEUA, 215",
+      "guincho": "0",
+      "id": "261353",
+      "nome": "MECANICA HERMES",
+      "site": "www.mecanicahermescar.com.br",
+      "telefone": "(11) 2703 0752",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.40156735",
+      "Longitude": "-46.748158500000045",
+      "bairro": "PERUS",
+      "cep": "05207-000",
+      "cidade": "SÃO PAULO",
+      "email": "mecanica.magnum@gmail.com",
+      "endereco": "RUA PRESIDENTE VARGAS ,112",
+      "guincho": "0",
+      "id": "261645",
+      "nome": "MECÂNICA MAGNUM",
+      "telefone": "(11) 3917 5377",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.65989335",
+      "Longitude": "-46.65737249999995",
+      "bairro": "JARDIM JABAQUARA",
+      "cep": "04384-030",
+      "cidade": "SÃO PAULO",
+      "email": "contato.minami@uol.com.br",
+      "endereco": "R CONDE MOREIRA LIMA ,93",
+      "guincho": "0",
+      "id": "261159",
+      "nome": "MINAMI SERVIÇOS AUTOMOTIVOS",
+      "servicos": "4129 ^ 4133 ^ 4134 ^ 4136 ^ 4137 ^ 4147 ^ 4148 ^ 4149 ^ 4151 ^ 4152 ^ 4154 ^ 4156 ",
+      "site": "www.minami.com.br",
+      "telefone": "(11) 5564 8112",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.4948087",
+      "Longitude": "-46.420213200000035",
+      "bairro": "ITAIM PAULISTA",
+      "cep": "08022-130",
+      "cidade": "SÃO PAULO",
+      "email": "osvaldo@montanaautopecas.com.br",
+      "endereco": "R ELIAS MONTEIRO CARDOSO ,270",
+      "guincho": "0",
+      "id": "261370",
+      "nome": "MONTANA",
+      "site": "www.montanaautopecas.com.br",
+      "telefone": "(11) 2585 3728",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.521006999999997",
+      "Longitude": "-46.56846729999995",
+      "bairro": "PQ NOVO MUNDO",
+      "cep": "02179-000",
+      "cidade": "SÃO PAULO",
+      "email": "morelliferrari@terra.com.br",
+      "endereco": "AV SERAFIM GONÇALVES PEREIRA, 409",
+      "guincho": "1",
+      "id": "260629",
+      "nome": "MORELLI FERRARI",
+      "servicos": "4129 ^ 4130 ^ 4133 ^ 4137 ^ 4141 ^ 4147 ^ 4149 ^ 4152 ^ 4153 ^ 4154 ^ 4156 ",
+      "telefone": "(11) 2954 0707",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.6054909",
+      "Longitude": "-47.02361289999999",
+      "bairro": "JARDIM CAMBARA",
+      "cep": "05577-000",
+      "cidade": "SÃO PAULO",
+      "email": "llt.pecasautomotivas@gmail.com",
+      "endereco": "RODRAPOSO TAVARES,7201",
+      "guincho": "0",
+      "id": "261408",
+      "nome": "NEW CAR",
+      "telefone": "(11) 3782 3314",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.4996849",
+      "Longitude": "-46.442516400000045",
+      "bairro": "SAO MIGUEL PAULISTA",
+      "cep": "08020-000",
+      "cidade": "SÃO PAULO",
+      "email": "newcarboschservice@hotmail.com",
+      "endereco": "AV PIRES DO RIO ,396",
+      "guincho": "0",
+      "id": "261298",
+      "nome": "NEW CAR",
+      "telefone": "(11) 2037 0474",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.583945",
+      "Longitude": "-46.6277159",
+      "bairro": "VILA MARIANA",
+      "cep": "04112-001",
+      "cidade": "SÃO PAULO",
+      "email": "zelao@nzca.com.br",
+      "endereco": "AV LINS DE VASCONCELO ,2484",
+      "guincho": "1",
+      "id": "261118",
+      "nome": "NZ CENTRO AUTOMOTIVO",
+      "servicos": "4129 ^ 4130 ^ 4132 ^ 4133 ^ 4134 ^ 4135 ^ 4136 ^ 4137 ^ 4138 ^ 4139 ^ 4141 ^ 4147 ^ 4148 ^ 4149 ^ 4150 ^ 4151 ^ 4152 ^ 4153 ^ 4154 ^ 4155 ^ 4156 ^ 4158 ",
+      "telefone": "(11) 5572 6306",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.5851005",
+      "Longitude": "-46.54580199999998",
+      "bairro": "VILA EMA",
+      "cep": "03281-000",
+      "cidade": "SÃO PAULO",
+      "email": "oficina@car360.com.br",
+      "endereco": "AV VILA EMA, 3275",
+      "guincho": "0",
+      "id": "261409",
+      "nome": "OFICINA CAR 360",
+      "site": "www.oficinacar360.com.br",
+      "telefone": "(11) 2115 6011",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.551527099999994",
+      "Longitude": "-46.60684260000005",
+      "bairro": "MOOCA",
+      "cep": "03162-010",
+      "cidade": "SÃO PAULO",
+      "email": "pablo@bit9.com.br",
+      "endereco": "R ALMIRANTE BRASIL, 570",
+      "guincho": "0",
+      "id": "261062",
+      "nome": "PITININ SERVICE",
+      "servicos": "4128 ^ 4129 ^ 4132 ^ 4133 ^ 4135 ^ 4137 ^ 4141 ^ 4147 ^ 4148 ^ 4149 ^ 4150 ^ 4151 ^ 4152 ^ 4154 ^ 4156 ^ 4158 ",
+      "telefone": "(11) 3533 2376",
+      "uf": "SP"
+    }, {
+      "Latitude": "-22.37109385",
+      "Longitude": "-48.38892450000003",
+      "bairro": "CENTRO",
+      "cep": "17024 472",
+      "cidade": "SÃO PAULO",
+      "email": "oficinadopiu@yahoo.com.br",
+      "endereco": "RUA 13 DE MAIO 1300 ,",
+      "guincho": "0",
+      "id": "261646",
+      "nome": "PIU AUTO CENTER",
+      "telefone": "(14) 3652 2359",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.542718999999998",
+      "Longitude": "-46.59436960000005",
+      "bairro": "BELENZINHO",
+      "cep": "03062-000",
+      "cidade": "SÃO PAULO",
+      "email": "pneusdgp@gmail.com",
+      "endereco": "R HERVAL ,70",
+      "guincho": "0",
+      "id": "261599",
+      "nome": "PNEUS BELEM",
+      "telefone": "(11) 2693 9274",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.6678597",
+      "Longitude": "-46.73103260000005",
+      "bairro": "PQ ALVES DE LIMA",
+      "cep": "04902-005",
+      "cidade": "SÃO PAULO",
+      "email": "roberto@premyer.com",
+      "endereco": "AV GUARAPIRANGA ,1921",
+      "guincho": "0",
+      "id": "261302",
+      "nome": "PREMYER MECÂNICA ESPECIALIZADA",
+      "site": "www.premyer.com",
+      "telefone": "(11) 5515 2020",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.6514766",
+      "Longitude": "-46.66594859999998",
+      "bairro": "VILA MASCOTE",
+      "cep": "04367-000",
+      "cidade": "SÃO PAULO",
+      "email": "pspvendas2@terra.com.br",
+      "endereco": "R CARLO CARRA, 266",
+      "guincho": "0",
+      "id": "260734",
+      "nome": "PSP - PRUDÊNCIA",
+      "servicos": "4133^4135^4137^4147^4148^4149^4151^4152^4154^4156",
+      "telefone": "(11) 5563 7313",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.6064902",
+      "Longitude": "-46.47121960000004",
+      "bairro": "JD TRES MARIAS",
+      "cep": "08331-090",
+      "cidade": "SÃO PAULO",
+      "email": "paulamancilia@ig.com.br",
+      "endereco": "R MAURO BONAFÉ PAULLETE, 20",
+      "guincho": "1",
+      "id": "261085",
+      "nome": "R F SERVIÇOS MECANICOS",
+      "servicos": "4130 ^ 4132 ^ 4133 ^ 4134 ^ 4135 ^ 4136 ^ 4137 ^ 4138 ^ 4147 ^ 4149 ^ 4151 ^ 4152 ^ 4154 ^ 4156 ",
+      "telefone": "(11) 2019 6332",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.5637274",
+      "Longitude": "-46.50896069999999",
+      "bairro": "VILA CALIFORNIA",
+      "cep": "03490-000",
+      "cidade": "SÃO PAULO",
+      "email": "rafael.rmotors@bol.com.br",
+      "endereco": "AV ARICANDUVA ,5034",
+      "guincho": "0",
+      "id": "261162",
+      "nome": "R. MOTORS",
+      "telefone": "(11) 2722-3773",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.557736300000002",
+      "Longitude": "-46.52298284999995",
+      "bairro": "V. CARRAO",
+      "cep": "03449-000",
+      "cidade": "SÃO PAULO",
+      "email": "raffupneus@bol.com.br",
+      "endereco": "AV 19 DE JANEIRO, 749",
+      "guincho": "1",
+      "id": "261109",
+      "nome": "RAFFU CENTRO AUTOMOTIVO",
+      "servicos": "4128 ^ 4130 ^ 4132 ^ 4133 ^ 4134 ^ 4135 ^ 4137 ^ 4147 ^ 4149 ^ 4150 ^ 4151 ^ 4152 ^ 4154 ^ 4156 ",
+      "telefone": "(11) 2781 2363",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.6320303",
+      "Longitude": "-46.69784619999996",
+      "bairro": "CHACARA SANTO ANTONIO",
+      "cep": "04713-001",
+      "cidade": "SÃO PAULO",
+      "email": "daniel@rede47.com.br",
+      "endereco": "R DA PAZ, 931",
+      "guincho": "0",
+      "id": "260964",
+      "nome": "REDE 47",
+      "servicos": "4128^4135^4139^4147^4148^4149^4150^4152",
+      "site": "www.rede47.com.br",
+      "telefone": "(11) 5181 6999",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.5386122",
+      "Longitude": "-46.72807320000004",
+      "bairro": "VILA LEOPOLDINA",
+      "cep": "05318-000",
+      "cidade": "SÃO PAULO",
+      "email": "rosalvo@rede47.com.br",
+      "endereco": "R BAUMANN ,1467",
+      "guincho": "0",
+      "id": "261499",
+      "nome": "REDE 47",
+      "telefone": "(11) 3644 5123",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.586019",
+      "Longitude": "-46.617015700000024",
+      "bairro": "IPIRANGA",
+      "cep": "04270-000",
+      "cidade": "SÃO PAULO",
+      "email": "ipiranga@revisecar.com.br",
+      "endereco": "R DR MÁRIO VICENTE, 131",
+      "guincho": "1",
+      "id": "260595",
+      "nome": "REVISE CAR",
+      "servicos": "4128 ^ 4130 ^ 4133 ^ 4135 ^ 4137 ^ 4141 ^ 4147 ^ 4148 ^ 4149 ^ 4150 ^ 4151 ^ 4152 ^ 4154 ^ 4156 ",
+      "site": "www.revisecar.com.br",
+      "telefone": "(11) 2274 1463",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.5672153",
+      "Longitude": "-46.62137759999996",
+      "bairro": "ACLIMACAO",
+      "cep": "01537-000",
+      "cidade": "SÃO PAULO",
+      "email": "cambuci@revisecar.com.br",
+      "endereco": "AV LINS DE VASCONCELOS, 443",
+      "guincho": "0",
+      "id": "260547",
+      "nome": "REVISE CAR",
+      "site": "www.revisecar.com.br",
+      "telefone": "(11) 3209 2219",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.7073884",
+      "Longitude": "-46.69424819999995",
+      "bairro": "INTERLAGOS",
+      "cep": "04815-030",
+      "cidade": "SÃO PAULO",
+      "email": "jmarciomec@gmail.com>",
+      "endereco": "R JUSTINO NIGRO, 106",
+      "guincho": "0",
+      "id": "260736",
+      "nome": "SOLMAR AUTO MECÂNICA",
+      "servicos": "4128^4133^4137^4147^4149^4152^4154^4156",
+      "site": "www.solmarauto.com",
+      "telefone": "(11) 5666 1796",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.484871",
+      "Longitude": "-46.429056100000025",
+      "bairro": "SAO MIGUEL PAULISTA",
+      "cep": "08080-570",
+      "cidade": "SÃO PAULO",
+      "email": "swinjecao@hotmail.com",
+      "endereco": "AV OLIVEIRA FREIRE, 678",
+      "guincho": "0",
+      "id": "261113",
+      "nome": "SW INJEÇÃO ELETRONICA",
+      "servicos": "4128 ^ 4132 ^ 4133 ^ 4134 ^ 4135 ^ 4136 ^ 4137 ^ 4147 ^ 4149 ^ 4152 ^ 4154 ^ 4155 ^ 4156 ",
+      "telefone": "(11) 2581 3724",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.54380195",
+      "Longitude": "-46.58392739999999",
+      "bairro": "BELENZINHO",
+      "cep": "03303-000",
+      "cidade": "SÃO PAULO",
+      "email": "tecnicar@tecnicarreparos.com.br",
+      "endereco": "R PADRE ADELINO, 1059",
+      "guincho": "1",
+      "id": "260728",
+      "nome": "TECNICAR",
+      "servicos": "4128 ^ 4129 ^ 4130 ^ 4133 ^ 4135 ^ 4137 ^ 4141 ^ 4147 ^ 4148 ^ 4149 ^ 4150 ^ 4152 ^ 4154 ^ 4156 ^ 4158 ",
+      "site": "www.tecnicarreparos.com.br",
+      "telefone": "(11) 2605 5171",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.608766499999994",
+      "Longitude": "-46.61672859999999",
+      "bairro": "VILA BRASILIO MACHADO",
+      "cep": "04133-000",
+      "cidade": "SÃO PAULO",
+      "email": "rekuboyama@hotmail.com",
+      "endereco": "R PATRICIOS ,32",
+      "guincho": "0",
+      "id": "261303",
+      "nome": "TOKIO CAR",
+      "site": "www.tokiocarservice.com.br",
+      "telefone": "(11) 2577 8983",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.532486849999998",
+      "Longitude": "-46.44780894999997",
+      "bairro": "ITAQUERA",
+      "cep": "08210-590",
+      "cidade": "SÃO PAULO",
+      "email": "alexandre@toptyre.com.br",
+      "endereco": "R AUGUSTO CARLOS BAUMANN, 716",
+      "guincho": "0",
+      "id": "261114",
+      "nome": "TOP TYRE",
+      "servicos": "4128 ^ 4133 ^ 4134 ^ 4135 ^ 4136 ^ 4137 ^ 4147 ^ 4148 ^ 4149 ^ 4150 ^ 4151 ^ 4152 ^ 4154 ^ 4156 ",
+      "site": "www.toptyre.com.br",
+      "telefone": "(11) 2944 4084",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.620624799999995",
+      "Longitude": "-46.69116299999996",
+      "bairro": "VILA CORDEIRO",
+      "cep": "04582-020",
+      "cidade": "SÃO PAULO",
+      "email": "tyre@tyreexpress.com.br",
+      "endereco": "R BRITO PEIXOTO, 29",
+      "guincho": "1",
+      "id": "260742",
+      "nome": "TYRE EXPRESS",
+      "servicos": "4128 ^ 4129 ^ 4130 ^ 4133 ^ 4135 ^ 4137 ^ 4139 ^ 4141 ^ 4147 ^ 4149 ^ 4150 ^ 4151 ^ 4154 ^ 4156 ",
+      "site": "www.tyreexpress.com.br",
+      "telefone": "(11) 5535 3422",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.62280995",
+      "Longitude": "-46.670659",
+      "bairro": "CAMPO BELO",
+      "cep": "04617-014",
+      "cidade": "SÃO PAULO",
+      "email": "paulo.forlin@uol.com.br",
+      "endereco": "R VIEIRA DE MORAIS ,1205",
+      "guincho": "0",
+      "id": "261568",
+      "nome": "VARGA SERVIÇOS",
+      "telefone": "(11) 5543 2623",
+      "uf": "SP"
+    }, {
+      "Latitude": "-23.5243343",
+      "Longitude": "-46.64058650000004",
+      "bairro": "BOM RETIRO",
+      "cep": "01125-010",
+      "cidade": "SÃO PAULO",
+      "email": "leandro@wbrautomotivo.com.br",
+      "endereco": "R DR LEONARDO PINTO, 38",
+      "guincho": "0",
+      "id": "260779",
+      "nome": "WBR CONSULTORIA AUTOMOTIVA",
+      "site": "www.wbrautomotivo.com.br",
+      "telefone": "(11) 3331 7302",
+      "uf": "SP"
+    }],
+    "geo": {
+      "ALDIAM": {
+        ".priority": "6gyc9bxvf3",
+        "g": "6gyc9bxvf3",
+        "l": [-23.638836, -46.670160099999976]
+      },
+      "ALPHACAR": {
+        ".priority": "6gycfrcw48",
+        "g": "6gycfrcw48",
+        "l": [-23.5550279, -46.65676029999997]
+      },
+      "APAUTOCENTER": {
+        ".priority": "6gyf7f7c3w",
+        "g": "6gyf7f7c3w",
+        "l": [-23.498132200000008, -46.58779519999996]
+      },
+      "AUTOBAN": {
+        ".priority": "6gyc3mmz0u",
+        "g": "6gyc3mmz0u",
+        "l": [-23.6564604, -46.69494640000005]
+      },
+      "AUTOCENTERKOGA": {
+        ".priority": "6gyf23twsc",
+        "g": "6gyf23twsc",
+        "l": [-23.5013766, -46.73906599999998]
+      },
+      "AUTOELÉTRICAEPEÇASIGARAPAVA": {
+        ".priority": "6gyf70c4pj",
+        "g": "6gyf70c4pj",
+        "l": [-23.5062489, -46.62429410000004]
+      },
+      "AUTOHAZBOSCHCARSERVICE": {
+        ".priority": "6gyc33e998",
+        "g": "6gyc33e998",
+        "l": [-23.6780233, -46.69800789999999]
+      },
+      "AUTOLAPA": {
+        ".priority": "6gyf1nt8gu",
+        "g": "6gyf1nt8gu",
+        "l": [-23.5188305, -46.706146800000056]
+      },
+      "AUTOMECANICADECASTRO": {
+        ".priority": "6gyf6fuksj",
+        "g": "6gyf6fuksj",
+        "l": [-23.4948354, -46.63095320000002]
+      },
+      "AUTOMECAR": {
+        ".priority": "6gvztw6z2c",
+        "g": "6gvztw6z2c",
+        "l": [-22.5523046, -47.918549600000006]
+      },
+      "AUTOVILA": {
+        ".priority": "6gyccxvumy",
+        "g": "6gyccxvumy",
+        "l": [-23.5552955, -46.683744299999944]
+      },
+      "BALANCAR": {
+        ".priority": "6gyf4hqprz",
+        "g": "6gyf4hqprz",
+        "l": [-23.530058399999994, -46.66134950000003]
+      },
+      "BENTOSERVIÇOS": {
+        ".priority": "6gyf3s4btf",
+        "g": "6gyf3s4btf",
+        "l": [-23.4886685, -46.68786950000003]
+      },
+      "BESTCARSERVICOSAUTOMOTIVOS": {
+        ".priority": "6gyctwpdx4",
+        "g": "6gyctwpdx4",
+        "l": [-23.60917445, -46.50550295000005]
+      },
+      "BOSCHCARSERVICE-GIGIOS": {
+        ".priority": "6gycer6g26",
+        "g": "6gycer6g26",
+        "l": [-23.6021838, -46.611194299999966]
+      },
+      "CANAÃSERVIÇOSAUTOMOTIVOS": {
+        ".priority": "6gycczf7ub",
+        "g": "6gycczf7ub",
+        "l": [-23.5554142, -46.67760750000002]
+      },
+      "CENTROAUTOMOTIVOAACLEITELTDA": {
+        ".priority": "6gyf5115b6",
+        "g": "6gyf5115b6",
+        "l": [-23.548535599999994, -46.62458409999999]
+      },
+      "CENTROAUTOMOTIVOHÉLIO": {
+        ".priority": "6gyf4ebsuu",
+        "g": "6gyf4ebsuu",
+        "l": [-23.5332481, -46.64705200000003]
+      },
+      "CENTROAUTOMOTIVOPEREIRABARRETO": {
+        ".priority": "6gycm51dm6",
+        "g": "6gycm51dm6",
+        "l": [-23.66964565, -46.53579835000005]
+      },
+      "DURANCAR": {
+        ".priority": "6gyf3cvj1m",
+        "g": "6gyf3cvj1m",
+        "l": [-23.5002412, -46.67398490000005]
+      },
+      "ENGECAR": {
+        ".priority": "6gyc3r83s1",
+        "g": "6gyc3r83s1",
+        "l": [-23.6450572, -46.702364800000055]
+      },
+      "ENGEFUEL": {
+        ".priority": "6gyf6mwqvn",
+        "g": "6gyf6mwqvn",
+        "l": [-23.4793352, -46.650130099999956]
+      },
+      "FOXCAR": {
+        ".priority": "6gycuk88s4",
+        "g": "6gycuk88s4",
+        "l": [-23.573813899999998, -46.57017970000004]
+      },
+      "HIBRIDOAUTOCENTER": {
+        ".priority": "6gyf67yrcd",
+        "g": "6gyf67yrcd",
+        "l": [-23.488796500000007, -46.650285800000006]
+      },
+      "INJETRONIC": {
+        ".priority": "6gycu94jnh",
+        "g": "6gycu94jnh",
+        "l": [-23.5922567, -46.55704854999999]
+      },
+      "JAGUARAUTO": {
+        ".priority": "6gyf61q1b6",
+        "g": "6gyf61q1b6",
+        "l": [-23.5035602, -46.66166999999996]
+      },
+      "JARAGUÁBOSCHCARSERVICE": {
+        ".priority": "6gyf7cbmz8",
+        "g": "6gyf7cbmz8",
+        "l": [-23.5001389, -46.59234900000001]
+      },
+      "JOHNNYCAR": {
+        ".priority": "6gyfjmf671",
+        "g": "6gyfjmf671",
+        "l": [-23.52271015, -46.52387180000005]
+      },
+      "MAXPOWER": {
+        ".priority": "6gyf7kqyjb",
+        "g": "6gyf7kqyjb",
+        "l": [-23.4863636, -46.605471400000056]
+      },
+      "MCD-AUTOTÉCNICO": {
+        ".priority": "6gyfk1khbb",
+        "g": "6gyfk1khbb",
+        "l": [-23.503055, -46.576495799999975]
+      },
+      "MECANICAHERMES": {
+        ".priority": "6gyctpv8gc",
+        "g": "6gyctpv8gc",
+        "l": [-23.599867, -46.530370999999946]
+      },
+      "MECÂNICADOGATO": {
+        ".priority": "6gycgvcc8r",
+        "g": "6gycgvcc8r",
+        "l": [-23.5667509, -46.590595399999984]
+      },
+      "MECÂNICAGARÇA": {
+        ".priority": "6gyf0z7mpb",
+        "g": "6gyf0z7mpb",
+        "l": [-23.51400345, -46.72004885000001]
+      },
+      "MECÂNICAGTBOX": {
+        ".priority": "6gyfhcxd0y",
+        "g": "6gyfhcxd0y",
+        "l": [-23.546071700000006, -46.53873650000003]
+      },
+      "MECÂNICAMAGNUM": {
+        ".priority": "6gyfb5z5bz",
+        "g": "6gyfb5z5bz",
+        "l": [-23.40156735, -46.748158500000045]
+      },
+      "MINAMISERVIÇOSAUTOMOTIVOS": {
+        ".priority": "6gyc6kc5hk",
+        "g": "6gyc6kc5hk",
+        "l": [-23.65989335, -46.65737249999995]
+      },
+      "MONTANA": {
+        ".priority": "6gyfrdvufd",
+        "g": "6gyfrdvufd",
+        "l": [-23.4948087, -46.420213200000035]
+      },
+      "MORELLIFERRARI": {
+        ".priority": "6gyfhq1uhn",
+        "g": "6gyfhq1uhn",
+        "l": [-23.521006999999997, -46.56846729999995]
+      },
+      "NEWCAR": {
+        ".priority": "6gyfr4j86v",
+        "g": "6gyfr4j86v",
+        "l": [-23.4996849, -46.442516400000045]
+      },
+      "NZCENTROAUTOMOTIVO": {
+        ".priority": "6gycffwtx6",
+        "g": "6gycffwtx6",
+        "l": [-23.583945, -46.6277159]
+      },
+      "OFICINACAR360": {
+        ".priority": "6gycuf6qu4",
+        "g": "6gycuf6qu4",
+        "l": [-23.5851005, -46.54580199999998]
+      },
+      "PITININSERVICE": {
+        ".priority": "6gyf52tfmv",
+        "g": "6gyf52tfmv",
+        "l": [-23.551527099999994, -46.60684260000005]
+      },
+      "PIUAUTOCENTER": {
+        ".priority": "6uj8dzkqbm",
+        "g": "6uj8dzkqbm",
+        "l": [-22.37109385, -48.38892450000003]
+      },
+      "PNEUSBELEM": {
+        ".priority": "6gyf5dpj8r",
+        "g": "6gyf5dpj8r",
+        "l": [-23.542718999999998, -46.59436960000005]
+      },
+      "PREMYERMECÂNICAESPECIALIZADA": {
+        ".priority": "6gyc2e7s8p",
+        "g": "6gyc2e7s8p",
+        "l": [-23.6678597, -46.73103260000005]
+      },
+      "PSP-PRUDÊNCIA": {
+        ".priority": "6gyc6n6uht",
+        "g": "6gyc6n6uht",
+        "l": [-23.6514766, -46.66594859999998]
+      },
+      "RAFFUCENTROAUTOMOTIVO": {
+        ".priority": "6gycvr6ypz",
+        "g": "6gycvr6ypz",
+        "l": [-23.557736300000002, -46.52298284999995]
+      },
+      "REDE47": {
+        ".priority": "6gyf0dvtsu",
+        "g": "6gyf0dvtsu",
+        "l": [-23.5386122, -46.72807320000004]
+      },
+      "REVISECAR": {
+        ".priority": "6gycgjer50",
+        "g": "6gycgjer50",
+        "l": [-23.5672153, -46.62137759999996]
+      },
+      "RFSERVIÇOSMECANICOS": {
+        ".priority": "6gycww8dnp",
+        "g": "6gycww8dnp",
+        "l": [-23.6064902, -46.47121960000004]
+      },
+      "RMOTORS": {
+        ".priority": "6gycvwm5qd",
+        "g": "6gycvwm5qd",
+        "l": [-23.5637274, -46.50896069999999]
+      },
+      "SOLMARAUTOMECÂNICA": {
+        ".priority": "6gyc1knq3n",
+        "g": "6gyc1knq3n",
+        "l": [-23.7073884, -46.69424819999995]
+      },
+      "SWINJEÇÃOELETRONICA": {
+        ".priority": "6gyfrkxqsw",
+        "g": "6gyfrkxqsw",
+        "l": [-23.484871, -46.429056100000025]
+      },
+      "TECNICAR": {
+        ".priority": "6gyf5cyx7v",
+        "g": "6gyf5cyx7v",
+        "l": [-23.54380195, -46.58392739999999]
+      },
+      "TOKIOCAR": {
+        ".priority": "6gycennszq",
+        "g": "6gycennszq",
+        "l": [-23.608766499999994, -46.61672859999999]
+      },
+      "TOPTYRE": {
+        ".priority": "6gyfph19rd",
+        "g": "6gyfph19rd",
+        "l": [-23.532486849999998, -46.44780894999997]
+      },
+      "TYREEXPRESS": {
+        ".priority": "6gyc9ebxch",
+        "g": "6gyc9ebxch",
+        "l": [-23.620624799999995, -46.69116299999996]
+      },
+      "VARGASERVIÇOS": {
+        ".priority": "6gyc9gx7nv",
+        "g": "6gyc9gx7nv",
+        "l": [-23.62280995, -46.670659]
+      },
+      "WBRCONSULTORIAAUTOMOTIVA": {
+        ".priority": "6gyf4tt2gd",
+        "g": "6gyf4tt2gd",
+        "l": [-23.5243343, -46.64058650000004]
+      }
+    },
+    "categorias": [{
+        "id": 1,
+        "nome": "Acessórios"
+      },
+      {
+        "id": 2,
+        "nome": "Cambio"
+      },
+      {
+        "id": 3,
+        "nome": "Freio"
+      },
+      {
+        "id": 4,
+        "nome": "Motor"
+      }
+    ],
+    "pecas": [{
+        "nome": "Maçaneta da porta dianteira - Lado Motorista",
+        "descricao": "Maçaneta cromada para linha Civic 2007 - 2011",
+        "imagem": "http://www.extra-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=534147761",
+        "fabricante": "XYZ",
+        "linha": "Leve",
+        "carro": "Civic",
+        "preco": 42.75,
+        "categoria": 1
+      },
+      {
+        "nome": "Maçaneta da porta dianteira - Lado Passageiro",
+        "descricao": "Maçaneta cromada para linha Civic 2007 - 2011",
+        "imagem": "http://www.extra-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=534147761",
+        "fabricante": "XYZ",
+        "linha": "Leve",
+        "carro": "Civic",
+        "preco": 42.75,
+        "categoria": 1
+      },
+      {
+        "nome": "Alavanca De Câmbio New Civic (automático Todos Modelos) ",
+        "descricao": "Alavanca De Câmbio New Civic (automático Todos Modelos) ",
+        "imagem": "http://www.adilsonpecas.com.br/wp-content/uploads/2011/02/lavanca-cambio.new-civic-2.jpg",
+        "fabricante": "XYZ",
+        "linha": "Leve",
+        "carro": "Civic",
+        "preco": 500.00,
+        "categoria": 2
+      },
+      {
+        "nome": "Caixa Cambio Automático Honda New Civic 2011/2015- Sport Car ",
+        "descricao": "Caixa Cambio Automático Honda New Civic 2011/2015- Sport Car",
+        "imagem": "https://http2.mlstatic.com/caixa-cambio-automatico-honda-new-civic-20112015-sport-car-D_NQ_NP_471601-MLB20366507629_082015-F.jpg",
+        "fabricante": "XYZ",
+        "linha": "Leve",
+        "carro": "Civic",
+        "preco": 2499.20,
+        "categoria": 2
+      },
+      {
+        "nome": "Jogo Pastilha Freio Dianteiro Honda Civic 2009 Original Trw ",
+        "descricao": "Jogo Pastilha Freio Dianteiro Honda Civic 2009 Original Trw ",
+        "imagem": "https://http2.mlstatic.com/D_Q_NP_607125-MLB25382184254_022017-H.jpg",
+        "fabricante": "XYZ",
+        "linha": "Leve",
+        "carro": "Civic",
+        "preco": 104.90,
+        "categoria": 3
+      },
+      {
+        "nome": "Par Disco Freio New Civic 2012 2011 2010 2009 2008 2007 2006  ",
+        "descricao": "Par Disco Freio New Civic 2012 2011 2010 2009 2008 2007 2006  ",
+        "imagem": "https://http2.mlstatic.com/par-de-disco-de-freio-celta-corsa-e-classic-fremax-D_NQ_NP_13943-MLB4393765337_052013-F.jpg",
+        "fabricante": "XYZ",
+        "linha": "Leve",
+        "carro": "Civic",
+        "preco": 320.15,
+        "categoria": 3
+      }
+    ]
+  }
+}
