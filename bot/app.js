@@ -26,7 +26,6 @@
         io = require("socket.io")(server),
         upload = multer({
             fileFilter: function (req, file, cb) {
-                console.log(file);
                 try {
                     var splittedName = file.originalname.split(".");
                     file.dataType = splittedName[splittedName.length - 1];

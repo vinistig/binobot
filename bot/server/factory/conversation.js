@@ -10,8 +10,6 @@
     module.exports = function (conversationCredentials) {
         return {
             "sendMessage": function (options) {
-                console.log(options);
-				console.log("aqui doido agr vai")
                 return new Promise(function (resolve, reject) {
                     if (!options) {
                         return reject("Can not proceed without options object");

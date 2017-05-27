@@ -22,14 +22,12 @@
                 });
             },
             "deleteFile": function (filePath) {
-				console.log("entrou");
                 return new Promise(function (resolve, reject) {
                     fs.unlink(filePath, function (err, data) {
                         if (err) {
 							console.log("erro>>>"+err);
                             return reject(err);
                         }
-						console.log(data);
                         return resolve(data);
                     });
                 });
