@@ -1,0 +1,88 @@
+/* Empty. Add your own CSS if you like */
+body {
+	font-family: 'Montserrat', sans-serif;
+
+}
+.loading{
+	text-align:center;
+	margin-top:100px;
+}
+.item-peca{
+	font-size:0.8em;
+	font-style: italic;
+}
+.item-nome{
+	font-weight:bold;	
+}
+.listaItem{
+	float:left;
+	width:85%;
+}
+
+.bar-stable .button.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: #cac7c7;
+    font-size: 17px;
+}
+
+.bar.bar-stable .title {
+    color: #fff;
+}
+
+.bar.bar-stable {
+    border-color: #000000 !important;
+    background-color: #000000 !important;
+    color: #fff !important;
+}
+.info-comprado{
+	font-size:0.5em
+}
+.shopping{
+	text-align:center;
+	width:15%;
+	float:right;
+}
+.active{
+	color: gray;
+}
+
+.titulo {
+text-align:center;
+}
+.titulo{
+background-color: #fcfbfb;
+padding: 20px;
+font-size: 20px;
+}
+
+.img-carousel{
+	height:100px;
+}
+
+.audio-search{
+	color: white;
+    background-color: green;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    text-align: center;
+    padding-top: 19px;
+    font-size: 2.4em;
+	margin:0 auto;
+}
+.centraliza{
+	width:100%;
+}
+.totalizador{
+	margin-top: 50px;
+	width:100%;
+	text-align:right;
+	padding-right:30px;
+}
+
+.btnfull{
+	width: 80%;
+	margin: 0 auto;
+}

@@ -1,0 +1,30 @@
+<ion-view view-title="Problemas Encontrados">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="problema in problemas" >
+        <div class="listaItem">
+			<div class="item-nome">
+				{{problema.nome}}
+			</div>
+			<div class="item-peca">
+				{{problema.pecaEnvolvida}}
+			</div>
+        </div>
+		<div class="shopping">
+			<a href="#/app/shop" ng-class="{ 'active': problema.comprou }"> 
+				<i class="ion ion-bag" > </i><br />
+			</a>
+			<span ng-hide="{{!problema.comprou}}" class="info-comprado">{{problema.pecaComprada}} peças compradas</span>
+		</div>
+		
+      </ion-item>
+    </ion-list>
+	
+	<div class="totalizador"> Total: <span> R$ 200,00 </span></div>
+	<div class="centraliza" style="text-align:center; margin-top:50px">
+		<button class="button button-positive btnfull" ng-click="">
+          Avançar
+        </button>
+	</div>
+  </ion-content>
+</ion-view>
