@@ -1,0 +1,25 @@
+<ion-view view-title="Bem-vindo" >
+<ion-nav-bar>
+	<ion-nav-title></ion-nav-title>
+  </ion-nav-bar>
+  <ion-content class="padding">
+	<div style="text-align:center;">
+		<img src="img/ambevlogo.png" style="width: 200px;margin-bottom: 50px;margin-top: 50px;" />
+		<p style="font-size: 20px; margin-bottom: 15px;">Agendamento de <b>Visitas</b></p>
+		<p>Identifique-se para realizar um agendamento.</p>
+	</div>
+	<div style="text-align: center;">
+		<div class="list list-inset" style="max-width:450px; margin: 0 auto; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);" >
+		  <label class="item item-input">
+			  <input type="text" placeholder="ID Ambev / CPF" ng-model="data.usuario" next-on-enter>
+		  </label>
+		  <label class="item item-input" ng-keyup="data.senha.length > 1 && $event.keyCode == 13  && login()">
+			  <input type="password" placeholder="Senha" ng-model="data.senha">
+		  </label>
+		</div>
+		<button class="button button-block button-calm btnLogin" ng-click="login()" style="max-width:450px; margin: 0 auto; margin-top: 15px; margin-bottom: 15px;">Entrar</button>
+	</div>
+	  <p style="text-align: center; margin-bottom: 10px;padding-bottom: 10px;border-bottom: 1px solid #2245a9;">Não possui cadastro? <a href="#/cadastro" class="cadastro-link">Começe agora</a></p>
+	<p style="text-align: center;">Esqueceu sua senha? <a href="#/recuperarsenha" class="cadastro-link">Recuperar agora</a></p>
+  </ion-content>
+</ion-view>

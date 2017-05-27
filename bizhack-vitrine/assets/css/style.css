@@ -1,0 +1,26 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+		    padding-top: 70px;
+}
+
+.navbar-inverse {
+    background-color: #000 !important;
+    border-color: #080808;
+	border-bottom: 3px solid #4552b5;
+}
+
+.item { 
+	max-height: 200px;
+    overflow: hidden;
+	border-radius: 2px;
+}
+
+#carousel-example-generic {
+	margin-bottom: 15px;
+
+}
+
+.produto-img {
+	max-height: 200px;
+	overflow: hidden;
+}
