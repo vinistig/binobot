@@ -21,14 +21,16 @@ var geoRef = geoFire.ref();
 module.exports = {
 
     getTodasOficinas: function (cb) {
-		var response = [];
+        var response = [];
         rootRef.once('value', function (snap) {
-			snap.forEach(function(childSnap) {
-				var key = childSnap.val();
-				var nome = key['nome'];
-				response.push(nome);
-			});
-            if(cb) cb(response);
+            snap.forEach(function (childSnap) {
+                var key = childSnap.val();
+                var nome = key['nome'];
+                if (response.length <= 5) {
+                    response.push(nome);
+                }
+            });
+            if (cb) cb(response);
         });
     },
 
@@ -96,31 +98,43 @@ module.exports = {
         });
     },
 
-    getOficinasProximasPorLocalizacao: function (minhaLocalizacao, maxDistancia) {
-        // minhaLocalizacao, array com [l, g];
-        // maxDistancia em KM
-        rootGeoRef.once('value', function (snap) {
-            var oficinasPerto = [];
-            snap.forEach(function (childSnap) {
-                var key = childSnap.key;
-                geoFire.get(key).then(function (localizacaoDasOficinas) {
-                    if (localizacaoDasOficinas === null) {
-                        console.log('Provided key is not in GeoFire');
-                    } else {
-                        /*console.log('Provided key has a location of ' + location);*/
-                        var distanceInKm = GeoFire.distance(minhaLocalizacao, localizacaoDasOficinas);
-                        console.log(distanceInKm);
-                        if (distanceInKm <= maxDistancia) {
-                            oficinasPerto.push(key);
-                        }
-                    }
-                }, function (error) {
-                    console.log('Error: ' + error);
-                });
-            });
-            /*console.log(oficinasPerto);*/
-        });
-    },
+    getOficinasProximasPorLocalizacao: function (minhaLocalizacao, maxDistancia, cb) {
+          // minhaLocalizacao, array com [l, g];
+          // maxDistancia em KM
+          rootGeoRef.once('value', function (snap) {
+             // cria task
+             var count1 = 0;
+             var count2 = 0;
+             var oficinasPerto = [];
+             var taskGetDistance = function (key, localizacaoDasOficinas, resultGetDistance) {
+                 var distanceInKm = GeoFire.distance(minhaLocalizacao, localizacaoDasOficinas);
+                if (distanceInKm <= maxDistancia) {
+                     oficinasPerto.push(key);
+                 }
+                 // resulta task
+                 resultGetDistance(oficinasPerto);
+             }
+             snap.forEach(function (childSnap) {
+                 var key = childSnap.key;
+                 count1++;
+                 geoFire.get(key).then(function (localizacaoDasOficinas) {
+                     if (localizacaoDasOficinas === null) {
+                         console.log('Provided key is not in GeoFire');
+                     } else {
+                         // executa task
+                         taskGetDistance(key, localizacaoDasOficinas, function (oficinasPerto) {
+                             count2++;
+                             if (count1 == count2) {
+                                 if (cb) cb(oficinasPerto);
+                             }
+                         });
+                     }
+                 }, function (error) {
+                     console.log('Error: ' + error);
+                 });
+             });
+         });
+     },
 
     getDistanceBetweenTwoPoints: function (location1, location2) {
         var distanceInKm = GeoFire.distance(location1, location2);
