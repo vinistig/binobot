@@ -11,11 +11,12 @@
         return {
             "sendMessage": function (options) {
                 console.log(options);
+				console.log("aqui doido agr vai")
                 return new Promise(function (resolve, reject) {
                     if (!options) {
                         return reject("Can not proceed without options object");
                     }
-                    options.workspace_id = "ceb4e601-39fd-4efc-ab51-e9ce418b9b57";
+                    options.workspace_id = "dff81550-522f-4db5-8683-426e3ae9e6a4";
                     conversationInstance.message(options, function (err, response) {
                         if (err) {
                             console.log(err);

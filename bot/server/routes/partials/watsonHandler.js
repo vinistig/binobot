@@ -1,3 +1,5 @@
+var firebase = require('/Users/vinistig/Documents/Personal_Projs/binobot/firebase');
+
 /**
  * Created by danielabrao on 2/10/17.
  */
@@ -7,8 +9,11 @@
 
     module.exports = function (app, upload, watsonTextToSpeech, watsonSpeechToText, watsonConversation, FileHandler, fs) {
         app.post("/convertAudioToText", upload.single("audio"), function (req, res) {
+			console.log("teste rapaz");
             FileHandler.saveFile("test", req.file).then(function (filePath) {
+				console.log("vrauus1");
                 watsonSpeechToText.convertAudioToText(filePath).then(function (data) {
+					console.log("vrauus2");
                     FileHandler.deleteFile(filePath).then(function () {
                         var msg;
                         try {
@@ -21,22 +26,34 @@
                                 "text": msg
                             },
                             "context": {},
-                            "workspace_id": "0c3a610d-c281-4101-a328-eff4c9f1f196"
+                            "workspace_id": "dff81550-522f-4db5-8683-426e3ae9e6a4"
                         }).then(function (conversationData) {
+							console.log("vrauus conversationdata"+JSON.stringify(conversationData));
 
-                            watsonTextToSpeech.convertTextToAudio({
-                                "fileName": "converted",
-                                "textMessage": conversationData.output.text[0]
-                            }).then(function (ttsData) {
-                                return res.status(200).send({
-                                    "tts": ttsData,
-                                    "stt": data.results,
-                                    "conversation": conversationData
-                                });
-                            }, function (err) {
-                                console.log(err);
-                                return res.status(500).send(err);
-                            });
+							if (conversationData.context.oficina == true && conversationData.context.oficina != undefined){
+								firebase.getTodasOficinas(function(result) {
+			                        watsonTextToSpeech.convertTextToAudio({
+			                            "fileName": "converted",
+			                            "textMessage": conversationData.output.text[0] + "..." + result[0].nome
+			                        }).then(function (ttsData) {
+										return res.status(200).send({
+											"tts": ttsData,
+											"stt": data.results,
+											"conversation": conversationData
+										});
+			                        });
+								});
+						} else if (conversationData.context.guincho == true && conversationData.context.oficina != undefined) {
+							console.log("buscar guincho");
+						}
+
+
+
+
+
+
+
+
 
                         }, function (err) {
                             console.log(err);

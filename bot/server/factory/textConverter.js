@@ -13,6 +13,7 @@
         return {
             "convertTextToAudio": function (options) {
                 return new Promise(function (resolve, reject) {
+					console.log("aqui teste");
                     options = options || {};
                     if (!options.fileName || !options.textMessage) {
                         return reject("Missing properties");

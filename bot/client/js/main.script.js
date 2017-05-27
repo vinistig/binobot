@@ -38,7 +38,7 @@
                 elements.statusDisclaimer.classList.add("blink");
                 elements.statusDisclaimer.innerHTML = "SENDING AUDIO";
                 var xhr = new XMLHttpRequest();
-
+				console.log("send audio");
                 xhr.addEventListener("readystatechange", function () {
                     if (xhr.readyState === 4) {
                         if (xhr.status === 200 || xhr.status === 201) {
@@ -203,7 +203,7 @@
                     return;
                 }
                 props.analyser.getByteTimeDomainData(props.dataArray);
-                
+
                 var left = e.inputBuffer.getChannelData(0);
                 var right = e.inputBuffer.getChannelData(1);
                 // we clone the samples
