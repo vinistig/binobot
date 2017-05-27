@@ -6,6 +6,14 @@ var firebase = require('/home/gcfabri/Workspace/binobot/firebase.js');
 (function () {
     "use strict";
 
+    function isEmpty(obj) {
+        for (var key in obj) {
+            if (obj.hasOwnProperty(key))
+                return false;
+        }
+        return true;
+    }
+
     module.exports = function (app, upload, watsonTextToSpeech, watsonSpeechToText, watsonConversation, FileHandler, fs) {
         app.post("/convertAudioToText", upload.single("audio"), function (req, res) {
             FileHandler.saveFile("test", req.file).then(function (filePath) {
@@ -66,20 +74,34 @@ var firebase = require('/home/gcfabri/Workspace/binobot/firebase.js');
                                         });
                                     });
                                 });
+                            } else if (res.status(500)) {
+                                watsonTextToSpeech.convertTextToAudio({
+                                    "fileName": "converted",
+                                    "textMessage": "Não entendi, fale novamente"
+                                }).then(function (ttsData) {
+                                    return res.status(200).send({
+                                        "tts": ttsData,
+                                        "stt": data.results,
+                                        "conversation": conversationData
+                                    });
+                                }, function (err) {
+                                    console.log(err);
+                                    return res.status(500).send(err);
+                                });
                             } else {
                                 watsonTextToSpeech.convertTextToAudio({
-                                "fileName": "converted",
-                                "textMessage": conversationData.output.text[0]
-                            }).then(function (ttsData) {
-                                return res.status(200).send({
-                                    "tts": ttsData,
-                                    "stt": data.results,
-                                    "conversation": conversationData
+                                    "fileName": "converted",
+                                    "textMessage": conversationData.output.text[0]
+                                }).then(function (ttsData) {
+                                    return res.status(200).send({
+                                        "tts": ttsData,
+                                        "stt": data.results,
+                                        "conversation": conversationData
+                                    });
+                                }, function (err) {
+                                    console.log(err);
+                                    return res.status(500).send(err);
                                 });
-                            }, function (err) {
-                                console.log(err);
-                                return res.status(500).send(err);
-                            });
                             }
                         }, function (err) {
                             console.log(err);

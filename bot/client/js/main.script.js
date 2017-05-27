@@ -36,14 +36,14 @@
         "sendAudio": function (formData) {
             return new Promise(function (resolve, reject) {
                 elements.statusDisclaimer.classList.add("blink");
-                elements.statusDisclaimer.innerHTML = "SENDING AUDIO";
+                elements.statusDisclaimer.innerHTML = "ENVIANDO AUDIO";
                 var xhr = new XMLHttpRequest();
 				console.log("send audio");
                 xhr.addEventListener("readystatechange", function () {
                     if (xhr.readyState === 4) {
                         if (xhr.status === 200 || xhr.status === 201) {
                             elements.statusDisclaimer.classList.remove("blink");
-                            elements.statusDisclaimer.innerHTML = "SENT SUCCESSFULLY";
+                            elements.statusDisclaimer.innerHTML = "ENVIADO COM SUCESSO";
                             var response;
                             try {
                                 response = JSON.parse(xhr.responseText);
@@ -54,7 +54,7 @@
                             resolve(response);
                         } else {
                             elements.statusDisclaimer.classList.remove("blink");
-                            elements.statusDisclaimer.innerHTML = "SENT WITH ERRORS - CHECK LOG";
+                            elements.statusDisclaimer.innerHTML = "ENVIADO - COM ERROS";
 
                             var response;
                             try {
@@ -174,7 +174,7 @@
             props.sampleRate = props.context.sampleRate;
 
             console.log("succcess lifting up the media capture");
-            elements.statusDisclaimer.innerHTML = "INITIALIZED";
+            elements.statusDisclaimer.innerHTML = "A SUA DISPOSICAO :)";
 
             // creates a gain node
             props.volume = props.context.createGain();
@@ -230,7 +230,7 @@
         },
         "startRecording": function () {
             elements.statusDisclaimer.classList.add("blink");
-            elements.statusDisclaimer.innerHTML = "RECORDING";
+            elements.statusDisclaimer.innerHTML = "CAPTURANDO";
             socket.emit("start");
             props.recording = true;
             methods.startTimer();
