@@ -1,4 +1,4 @@
-var firebase = require('/Users/vinistig/Documents/Personal_Projs/binobot/firebase');
+var firebase = require('/home/gcfabri/Workspace/binobot/firebase.js');
 
 /**
  * Created by danielabrao on 2/10/17.
@@ -6,14 +6,10 @@ var firebase = require('/Users/vinistig/Documents/Personal_Projs/binobot/firebas
 (function () {
     "use strict";
 
-
     module.exports = function (app, upload, watsonTextToSpeech, watsonSpeechToText, watsonConversation, FileHandler, fs) {
         app.post("/convertAudioToText", upload.single("audio"), function (req, res) {
-			console.log("teste rapaz");
             FileHandler.saveFile("test", req.file).then(function (filePath) {
-				console.log("vrauus1");
                 watsonSpeechToText.convertAudioToText(filePath).then(function (data) {
-					console.log("vrauus2");
                     FileHandler.deleteFile(filePath).then(function () {
                         var msg;
                         try {
@@ -28,33 +24,63 @@ var firebase = require('/Users/vinistig/Documents/Personal_Projs/binobot/firebas
                             "context": {},
                             "workspace_id": "dff81550-522f-4db5-8683-426e3ae9e6a4"
                         }).then(function (conversationData) {
-							console.log("vrauus conversationdata"+JSON.stringify(conversationData));
-
-							if (conversationData.context.oficina == true && conversationData.context.oficina != undefined){
-								firebase.getTodasOficinas(function(result) {
-			                        watsonTextToSpeech.convertTextToAudio({
-			                            "fileName": "converted",
-			                            "textMessage": conversationData.output.text[0] + "..." + result[0].nome
-			                        }).then(function (ttsData) {
-										return res.status(200).send({
-											"tts": ttsData,
-											"stt": data.results,
-											"conversation": conversationData
-										});
-			                        });
-								});
-						} else if (conversationData.context.guincho == true && conversationData.context.oficina != undefined) {
-							console.log("buscar guincho");
-						}
-
-
-
-
-
-
-
-
-
+                            if (conversationData.context.oficina == true && conversationData.context.oficina != undefined) {
+                                firebase.getTodasOficinas(function (result) {
+                                    console.log(result);
+                                    watsonTextToSpeech.convertTextToAudio({
+                                        "fileName": "converted",
+                                        "textMessage": conversationData.output.text[0] + "..." + result.join(',')
+                                    }).then(function (ttsData) {
+                                        return res.status(200).send({
+                                            "tts": ttsData,
+                                            "stt": data.results,
+                                            "conversation": conversationData
+                                        });
+                                    });
+                                });
+                            } else if (conversationData.context.guincho == true && conversationData.context.guincho != undefined) {
+                                firebase.getAllGuinchos(function (result) {
+                                    console.log(result);
+                                    watsonTextToSpeech.convertTextToAudio({
+                                        "fileName": "converted",
+                                        "textMessage": conversationData.output.text[0] + "..." + "Nome da oficina..." + result[0].nome + "..." + "e telefone" + "..." + result[0].telefone
+                                    }).then(function (ttsData) {
+                                        return res.status(200).send({
+                                            "tts": ttsData,
+                                            "stt": data.results,
+                                            "conversation": conversationData
+                                        });
+                                    });
+                                });
+                            } else if (conversationData.context.proximas == true && conversationData.context.proximas != undefined) {
+                                firebase.getOficinasProximasPorLocalizacao([-23.6514766, -46.66594859999998], 15, function (result) {
+                                    console.log(result);
+                                    watsonTextToSpeech.convertTextToAudio({
+                                        "fileName": "converted",
+                                        "textMessage": conversationData.output.text[0] + "..." + "Estas sao as oficinas mais proximas..." + result[0].nome + "..." + "e telefone" + "..." + result[0].telefone
+                                    }).then(function (ttsData) {
+                                        return res.status(200).send({
+                                            "tts": ttsData,
+                                            "stt": data.results,
+                                            "conversation": conversationData
+                                        });
+                                    });
+                                });
+                            } else {
+                                watsonTextToSpeech.convertTextToAudio({
+                                "fileName": "converted",
+                                "textMessage": conversationData.output.text[0]
+                            }).then(function (ttsData) {
+                                return res.status(200).send({
+                                    "tts": ttsData,
+                                    "stt": data.results,
+                                    "conversation": conversationData
+                                });
+                            }, function (err) {
+                                console.log(err);
+                                return res.status(500).send(err);
+                            });
+                            }
                         }, function (err) {
                             console.log(err);
                             return res.status(500).send(err);
